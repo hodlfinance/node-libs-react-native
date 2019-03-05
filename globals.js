@@ -1,5 +1,4 @@
 global.Buffer = require('buffer').Buffer;
-
 if (typeof process === 'undefined') {
   global.process = require('process')
 } else {
